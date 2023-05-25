@@ -120,7 +120,7 @@ int main()
 
         std::vector<ScreenPoint> points;
 
-        BresenhamLine(&points, Vector2D{x1, y1}, Vector2D{x2, y2});
+        BresenhamLine(&points, Vector2D{ (float)x1, (float)y1 }, Vector2D{ (float)x2, (float)y2 });
 
         for (auto &elem : points)
         {
