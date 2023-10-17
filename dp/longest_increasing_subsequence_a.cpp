@@ -3,6 +3,8 @@
 using namespace std;
 
 // Time Complexity : O(N^2)
+//
+// 최장 길이만 구함
 
 int n;
 
